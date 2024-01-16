@@ -1,7 +1,11 @@
 import React from "react";
 
 const Title = () => {
-    return(<h2 style={{ color:'Orange' }} >Daily Todo Actions</h2>)
+    return(<>
+        <div className="todo-title" >
+            <h2 style={{ color:'white' }} ><i>Daily Actions</i></h2>
+        </div>
+    </>)
 } 
 
 export default Title
